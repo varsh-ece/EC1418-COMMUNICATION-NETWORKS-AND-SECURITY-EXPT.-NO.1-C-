@@ -1,4 +1,4 @@
-# EC1418-COMMUNICATION-NETWORKS-AND-SECURITY-EXPT-1-B--BUS
+# EC1418-COMMUNICATION-NETWORKS-AND-SECURITY-EXPT-1-C-MESH 
 MESH TOPOLOGY -CISCO
 
 # AIM 
@@ -22,19 +22,28 @@ STEP 9: Select “add simple PDU” from tool bar and place it in source and des
 
 # IP CONNECTIVITY TABLE
 
+| Device | IP Address   | Subnet Mask   | Default Gateway |
+| ------ | ------------ | ------------- | --------------- |
+| PC0    | 192.168.1.31 | 255.255.255.0 | —               |
+| PC1    | 192.168.1.32 | 255.255.255.0 | —               |
+| PC2    | 192.168.1.33 | 255.255.255.0 | —               |
+| PC3    | 192.168.1.34 | 255.255.255.0 | —               |
 
 
 # NETWORK DIAGRAM
 
-
-
+<img width="341" height="245" alt="image" src="https://github.com/user-attachments/assets/54a8371e-9364-4922-bcd8-a0e046955bd6" />
 
 # OUTPUT
-
+| Parameter | Calculated Value |
+|---|---:|
+| Delay | 5.4 ms |
+| Average Delay | 4.8 ms |
+| Throughput | 9.7 Mbps |
+| Packet Loss | 0.5% |
 
 # RESULT
 
 Thus the computers in same network are able to communicate with each other and the communication between them were verified.
-
 
 
